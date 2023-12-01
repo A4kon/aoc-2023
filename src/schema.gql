@@ -2,6 +2,11 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+type Mutation {
+  solveGoldTaskForDay1: Float!
+  solveSilverTaskForDay1: Float!
+}
+
 type Query {
   checkConnection: Boolean!
 }

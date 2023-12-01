@@ -3,6 +3,7 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { join } from 'path';
 import { CheckModule } from './check/check.module';
+import { DaysModule } from './days/days.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { CheckModule } from './check/check.module';
       introspection: true,
     }),
     CheckModule,
+    DaysModule,
   ],
   controllers: [],
   providers: [],
